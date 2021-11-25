@@ -1,139 +1,139 @@
 [{
-    "testament": "Majẹmu Titun",
+    "testament": "Agba Ọhụrụ",
     "totalPages": 27,
     "pages": [{
             "id": "1",
-            "page": "Matteu",
+            "page": "Matiu",
             "chapters": 28
         },
         {
             "id": "2",
-            "page": "Marku",
+            "page": "Mak",
             "chapters": 16
         },
         {
             "id": "3",
-            "page": "Luku",
+            "page": "Luk",
             "chapters": 16
         },
         {
             "id": "4",
-            "page": "Johannu",
+            "page": "Jon",
             "chapters": 21
         },
         {
             "id": "5",
-            "page": "Ise Awon Aposteli",
+            "page": "Olu Ndi Ozi",
             "chapters": 28
         },
         {
             "id": "6",
-            "page": "Romu",
+            "page": "Ndi Rom",
             "chapters": 16
         },
         {
             "id": "7",
-            "page": "I Korinti",
+            "page": "I Ndi Korinti",
             "chapters": 16
         },
         {
             "id": "8",
-            "page": "II Korinti",
+            "page": "II Ndi Korinti",
             "chapters": 13
         },
         {
             "id": "9",
-            "page": "Galatia",
+            "page": "Ndi Galetia",
             "chapters": 6
         },
         {
             "id": "10",
-            "page": "Efesu",
+            "page": "Ndi Efesos",
             "chapters": 6
         },
         {
             "id": "11",
-            "page": "Filipi",
+            "page": "Ndi Filipai",
             "chapters": 4
         },
         {
             "id": "12",
-            "page": "Kolose",
+            "page": "Ndi Kolosi",
             "chapters": 4
         },
         {
             "id": "13",
-            "page": "I Tessalonika",
+            "page": "I Ndi Tesalonaika",
             "chapters": 5
         },
         {
             "id": "14",
-            "page": "II Tessalonika",
+            "page": "II Ndi Tesalonaika",
             "chapters": 3
         },
         {
             "id": "15",
-            "page": "I Timoteu",
+            "page": "I Timoti",
             "chapters": 6
         },
         {
             "id": "16",
-            "page": "II Timoteu",
+            "page": "II Timoti",
             "chapters": 4
         },
         {
             "id": "17",
-            "page": "Titu",
+            "page": "Taitos",
             "chapters": 3
         },
         {
             "id": "18",
-            "page": "Filemoni",
+            "page": "Failimon",
             "chapters": 1
         },
         {
             "id": "19",
-            "page": "Heberu",
+            "page": "Ndi Hibru",
             "chapters": 13
         },
         {
             "id": "20",
-            "page": "Jakobu",
+            "page": "Jemes",
             "chapters": 5
         },
         {
             "id": "21",
-            "page": "I Peteru",
+            "page": "I Pita",
             "chapters": 5
         },
         {
             "id": "22",
-            "page": "II Peteru",
+            "page": "II Pita",
             "chapters": 3
         },
         {
             "id": "23",
-            "page": "I Johannu",
+            "page": "I Jon",
             "chapters": 5
         },
         {
             "id": "24",
-            "page": "II Johannu",
+            "page": "II Jon",
             "chapters": 1
         },
         {
             "id": "25",
-            "page": "III Johannu",
+            "page": "III Jon",
             "chapters": 1
         },
         {
             "id": "26",
-            "page": "Juda",
+            "page": "Jud",
             "chapters": 1
         },
         {
             "id": "27",
-            "page": "Ifihan",
+            "page": "Nkpughe",
             "chapters": 22
         }
     ]

@@ -134,7 +134,7 @@ android {
 
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.yorubabibleapp"
+        applicationId "com.igbobibleapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -156,9 +156,9 @@ android {
             keyPassword 'android'
         }
         release {
-            storeFile file('yorubabible.keystore')
+            storeFile file('igbobible.keystore')
             storePassword 'Gbengafak7#'
-            keyAlias 'yba'
+            keyAlias 'iba'
             keyPassword 'Gbengafak7#'
         }
     }

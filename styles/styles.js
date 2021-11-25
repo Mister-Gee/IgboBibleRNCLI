@@ -124,7 +124,7 @@ export const styles = StyleSheet.create({
         shadowRadius: 6.27,
         elevation: 10,
         borderRadius: 50,
-        paddingHorizontal: 80,
+        paddingHorizontal: 60,
         paddingVertical: 15,
         marginBottom: 60
     },

@@ -1,24 +1,24 @@
 [{
-    "testament": "Majẹmu Lailai",
+    "testament": "Agba Ochie",
     "totalPages": 39,
     "pages": [{
             "id": "1",
-            "page": "Genesisi",
+            "page": "Jenesis",
             "chapters": 31
         },
         {
             "id": "2",
-            "page": "Eksodu",
+            "page": "Opupu",
             "chapters": 22
         },
         {
             "id": "3",
-            "page": "Lefitiku",
+            "page": "Levitikos",
             "chapters": 27
         },
         {
             "id": "4",
-            "page": "Numeri",
+            "page": "Onu Ogugu",
             "chapters": 36
         },
         {
@@ -28,112 +28,112 @@
         },
         {
             "id": "6",
-            "page": "Josua",
+            "page": "Joshua",
             "chapters": 24
         },
         {
             "id": "7",
-            "page": "Awon Onidajo",
+            "page": "Ndi Ikpe",
             "chapters": 21
         },
         {
             "id": "8",
-            "page": "Rutu",
+            "page": "Rut",
             "chapters": 4
         },
         {
             "id": "9",
-            "page": "I Samueli",
+            "page": "I Samuel",
             "chapters": 31
         },
         {
             "id": "10",
-            "page": "II Samueli",
+            "page": "II Samuel",
             "chapters": 24
         },
         {
             "id": "11",
-            "page": "I Awon Oba",
+            "page": "I Ndi Eze",
             "chapters": 22
         },
         {
             "id": "12",
-            "page": "II Awon Oba",
+            "page": "II Ndi Eze",
             "chapters": 25
         },
         {
             "id": "13",
-            "page": "I Kronika",
+            "page": "I Ihe Emere",
             "chapters": 29
         },
         {
             "id": "14",
-            "page": "II Kronika",
+            "page": "II Ihe Emere",
             "chapters": 36
         },
         {
             "id": "15",
-            "page": "Esra",
+            "page": "Ezra",
             "chapters": 10
         },
         {
             "id": "16",
-            "page": "Nehemiah",
+            "page": "Nehemaia",
             "chapters": 13
         },
         {
             "id": "17",
-            "page": "Esteri",
+            "page": "Esta",
             "chapters": 10
         },
         {
             "id": "18",
-            "page": "Jobu",
+            "page": "Job",
             "chapters": 42
         },
         {
             "id": "19",
-            "page": "Orin Dafidi",
+            "page": "Abu Oma",
             "chapters": 150
         },
         {
             "id": "20",
-            "page": "Owe",
+            "page": "Ilu",
             "chapters": 31
         },
         {
             "id": "21",
-            "page": "Oniwasu",
+            "page": "Eklisiastis",
             "chapters": 12
         },
         {
             "id": "22",
-            "page": "Orin Solomoni",
+            "page": "Abu Nke Abu",
             "chapters": 8
         },
         {
             "id": "23",
-            "page": "Isaiah",
+            "page": "Aisaia",
             "chapters": 66
         },
         {
             "id": "24",
-            "page": "Jeremiah",
+            "page": "Jeremaia",
             "chapters": 52
         },
         {
             "id": "25",
-            "page": "Ekun Jeremiah",
+            "page": "Abu Akwa",
             "chapters": 5
         },
         {
             "id": "26",
-            "page": "Esekeli",
+            "page": "Ezikiel",
             "chapters": 48
         },
         {
             "id": "27",
-            "page": "Danieli",
+            "page": "Daniel",
             "chapters": 12
         },
         {
@@ -143,17 +143,17 @@
         },
         {
             "id": "29",
-            "page": "Joeli",
+            "page": "Joel",
             "chapters": 3
         },
         {
             "id": "30",
-            "page": "Amosi",
+            "page": "Emos",
             "chapters": 9
         },
         {
             "id": "31",
-            "page": "Obadiah",
+            "page": "Obadaia",
             "chapters": 1
         },
         {
@@ -163,22 +163,22 @@
         },
         {
             "id": "33",
-            "page": "Mika",
+            "page": "Maika",
             "chapters": 7
         },
         {
             "id": "34",
-            "page": "Nahumu",
+            "page": "Nahum",
             "chapters": 3
         },
         {
             "id": "35",
-            "page": "Habakkuku",
+            "page": "Habakuk",
             "chapters": 3
         },
         {
             "id": "36",
-            "page": "Safaniah",
+            "page": "Zefanaia",
             "chapters": 3
         },
         {
@@ -188,12 +188,12 @@
         },
         {
             "id": "38",
-            "page": "Sekariah",
+            "page": "Zekaraia",
             "chapters": 14
         },
         {
             "id": "39",
-            "page": "Malaki",
+            "page": "Malakai",
             "chapters": 4
         }
     ]

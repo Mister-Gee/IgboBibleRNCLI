@@ -43,7 +43,7 @@ const Navigator = () => {
                     component={Home}
                     options={{
                         headerShown: true,
-                        headerTitle: "Yoruba Bible"
+                        headerTitle: "Igbo Bible"
                     }}
                 />
                 <Drawer.Screen
@@ -65,7 +65,7 @@ const Navigator = () => {
                     component={AboutUs}
                     options={{
                         headerShown: true,
-                        headerTitle: "Nipa Wa"
+                        headerTitle: "Gbasara Anyị"
                     }}
                 />
                 

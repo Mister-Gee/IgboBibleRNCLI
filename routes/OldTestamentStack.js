@@ -15,7 +15,7 @@ const OldTestamentStack = () => {
                 name="Index" 
                 component={OldTestament} 
                 options = {{
-                header: ({navigation}) => <Header navigation={navigation} title="Majẹmu Lailai" />
+                header: ({navigation}) => <Header navigation={navigation} title="Agba Ochie" />
             }}
             />
             <Stack.Screen 

@@ -36,7 +36,7 @@ const App = () => {
           <Navigator />
           <StatusBar style="light" backgroundColor="#2E5984" />
           <View>
-            <BannerAd size="320x50" unitId={"ca-app-pub-8645271026489270/9511232433"} />
+            <BannerAd size="320x50" unitId={"ca-app-pub-8645271026489270/8655948785"} />
             {/* <BannerAd size="320x50" unitId={TestIds.BANNER} /> */}
           </View>
           </>

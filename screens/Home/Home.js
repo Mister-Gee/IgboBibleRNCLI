@@ -56,15 +56,15 @@ const Home = ({navigation}) => {
 
     useEffect(() => {
     const backAction = () => {
-      Alert.alert('Pa Bibeli!', 'Ṣe o da ọ loju pe o fẹ pa bibeli?', [
-        {
-          text: 'Rara',
-          onPress: () => null,
-          style: 'cancel',
-        },
-        {text: 'Bẹẹni', onPress: () => BackHandler.exitApp  ()},
-      ]);
-      return true;
+        Alert.alert('Mechie Akwụkwọ Nsọ!', 'O doro gị anya na ị chọrọ imechi akwụkwọ nsọ?', [
+            {
+              text: 'Mba',
+              onPress: () => null,
+              style: 'cancel',
+            },
+            { text: 'Ee', onPress: () => BackHandler.exitApp() },
+        ]);
+          return true;
     };
 
     const backHandler = BackHandler.addEventListener(
@@ -79,12 +79,12 @@ const Home = ({navigation}) => {
     return (
         <View style={styles.container}>
             <ImageBackground
-                source={require("../../assets/Images/yoruba_banner.jpg")}
+                source={require("../../assets/Images/igbo_people.jpg")}
                 resizeMode="cover"
                 style={styles.bgImg}
             >
                 <View style={styles.verse}>
-                    <Text style={[styles.verseTitle, styles.whiteText]}>Ẹsẹ ọjọ</Text>
+                    <Text style={[styles.verseTitle, styles.whiteText]}>Amaokwu nke ụbọchị</Text>
                     <Text style={[styles.verseBody, styles.whiteText]}>"{verseOfTheDayBody}"</Text>
                     <Text style={[styles.versePage, styles.whiteText]}>{verseOfTheDayBook}</Text>
                 </View>
@@ -96,7 +96,7 @@ const Home = ({navigation}) => {
                     >
                         <View style={styles.book}>  
                             <Text style={[styles.bookTitle, styles.whiteText]}> {oldTestment[0].testament} </Text>
-                            <Text style={[styles.bookPages, styles.whiteText]}><Text style={styles.boldText}>Eye Iwe:</Text> {oldTestment[0].totalPages}</Text>
+                            <Text style={[styles.bookPages, styles.whiteText]}><Text style={styles.boldText}>Ọnụ ọgụgụ Akwụkwọ:</Text> {oldTestment[0].totalPages}</Text>
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity
@@ -104,7 +104,7 @@ const Home = ({navigation}) => {
                     >
                         <View style={styles.book}>  
                             <Text style={[styles.bookTitle, styles.whiteText]}>{newTestment[0].testament}</Text>
-                            <Text style={[styles.bookPages, styles.whiteText]}><Text style={styles.boldText}>Eye Iwe:</Text> {newTestment[0].totalPages}</Text>
+                            <Text style={[styles.bookPages, styles.whiteText]}><Text style={styles.boldText}>Ọnụ ọgụgụ Akwụkwọ:</Text> {newTestment[0].totalPages}</Text>
                         </View>
                     </TouchableOpacity>
                 </View>

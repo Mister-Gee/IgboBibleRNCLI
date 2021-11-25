@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.yorubabibleapp">
+  package="com.igbobibleapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +13,7 @@
         android:requestLegacyExternalStorage="true">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8645271026489270~8034499235"/>
+            android:value="ca-app-pub-8645271026489270~7572283042"/>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme"

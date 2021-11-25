@@ -6,13 +6,13 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 const NavDrawer = ({navigation}) => {
 
     const closeApp = () => {
-        Alert.alert('Pa Bibeli!', 'Ṣe o da ọ loju pe o fẹ pa bibeli?', [
+        Alert.alert('Mechie Akwụkwọ Nsọ!', 'O doro gị anya na ị chọrọ imechi akwụkwọ nsọ?', [
         {
-          text: 'Rara',
+          text: 'Mba',
           onPress: () => null,
           style: 'cancel',
         },
-        { text: 'Bẹẹni', onPress: () => BackHandler.exitApp() },
+        { text: 'Ee', onPress: () => BackHandler.exitApp() },
     ]);
       return true;
     };
@@ -20,7 +20,7 @@ const NavDrawer = ({navigation}) => {
     return (
         <View style={styles.navDrawer}>
             <View style={styles.navHeader}>
-                <Text style={styles.navHeaderText}>Bibeli Mimo</Text>
+                <Text style={styles.navHeaderText}>Bible Nsọ</Text>
             </View>
             <View style={styles.navView}>
                 <View style={styles.navBody}>
@@ -28,7 +28,7 @@ const NavDrawer = ({navigation}) => {
                         <TouchableOpacity onPress={() => navigation.navigate("Home")}>
                             <View style={styles.navLinkTextWrapper}>
                                 <Icon name="home" size={18} color="#FFFFFF" />
-                                <Text style={styles.navLink}>Ile</Text>
+                                <Text style={styles.navLink}>Ụlọ</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
@@ -36,7 +36,7 @@ const NavDrawer = ({navigation}) => {
                         <TouchableOpacity onPress={() => navigation.navigate('OldTestament', {screen: 'Index'})}>
                             <View style={styles.navLinkTextWrapper}>
                                 <Icon name="bible" size={18} color="#FFFFFF" />
-                                <Text style={styles.navLink}>Majẹmu Lailai</Text>
+                                <Text style={styles.navLink}>Agba Ochie</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
@@ -44,7 +44,7 @@ const NavDrawer = ({navigation}) => {
                         <TouchableOpacity onPress={() => navigation.navigate("NewTestament", {screen: 'Index'})}>
                             <View style={styles.navLinkTextWrapper}>
                                 <Icon name="bible" size={18} color="#FFFFFF" />
-                                <Text style={styles.navLink}>Majẹmu Titun</Text>
+                                <Text style={styles.navLink}>Agba Ọhụrụ</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
@@ -52,7 +52,7 @@ const NavDrawer = ({navigation}) => {
                         <TouchableOpacity onPress={() => navigation.navigate("About")}>
                             <View style={styles.navLinkTextWrapper}>
                                 <Icon name="info-circle" size={18} color="#FFFFFF" />
-                                <Text style={styles.navLink}>Nipa wa</Text>
+                                <Text style={styles.navLink}>Gbasara Anyị</Text>
                             </View>
                         </TouchableOpacity>
                     </View> */}
@@ -62,7 +62,7 @@ const NavDrawer = ({navigation}) => {
                         <TouchableOpacity onPress={closeApp}>
                             <View style={styles.navLinkTextWrapper}>
                                 <Icon name="door-open" size={18} color="#FFFFFF" />
-                                <Text style={styles.navLink}>Jade</Text>
+                                <Text style={styles.navLink}>Mechie</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
