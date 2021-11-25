@@ -1,0 +1,8 @@
++ react-native-reanimated@2.3.0-beta.3
+added 1 package from 3 contributors, updated 1 package and audited 1102 packages in 10.68s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+found 16 vulnerabilities (4 moderate, 12 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
