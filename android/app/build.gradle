@@ -156,7 +156,7 @@ android {
             keyPassword 'android'
         }
         release {
-            storeFile file('igbobible.keystore')
+            storeFile file('igbo.keystore')
             storePassword 'Gbengafak7#'
             keyAlias 'iba'
             keyPassword 'Gbengafak7#'
