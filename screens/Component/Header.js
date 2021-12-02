@@ -12,7 +12,7 @@ const Header = ({navigation, title}) => {
 
     return (
         <View style={styles.header}>
-            <Icon name="menu" size={24} color="#FFFFFF" onPress={openMenu} style={styles.navBar}/>
+            <Icon name="menu" size={24} color="#927147" onPress={openMenu} style={styles.navBar}/>
             <View style={styles.headerTextWrap}>
                 <Text style={styles.mainHeaderText}> {title} </Text>
             </View>

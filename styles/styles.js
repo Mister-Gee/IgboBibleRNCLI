@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#BCD2E8',
+        backgroundColor: '#FCF8F2',
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -17,11 +17,11 @@ export const styles = StyleSheet.create({
     navHeader: {
         paddingVertical: 40,
         marginBottom: 20,
-        borderBottomColor: '#0d152d',
+        borderBottomColor: '#927147',
         borderBottomWidth: 1
     },
     navHeaderText: {
-        color: '#FFFFFF',
+        color: '#927147',
         fontFamily: 'Inter-Bold',
         textAlign: 'center',
         fontSize: 30
@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     navFooterLinkContainer: {},
     navLink: {
         fontFamily: 'Inter-Regular',
-        color: '#FFFFFF',
+        color: '#927147',
         fontSize: 15,
         fontWeight: 'bold',
         paddingVertical: 10,
@@ -67,7 +67,7 @@ export const styles = StyleSheet.create({
     bgImg: {
         height: 250,
         width: '100%',
-        marginTop: -40,
+        marginTop: -85,
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'flex-end',
@@ -76,8 +76,8 @@ export const styles = StyleSheet.create({
         // height: 120,
         // width: 300,
         maxWidth: 300,
-        backgroundColor: 'rgba(46, 89, 132, 0.5)',
-        shadowColor: "#2E5984",
+        backgroundColor: 'rgba(146, 113, 71, 0.8)',
+        shadowColor: "#927147",
         shadowOffset: {
             width: 0,
             height: 5,
@@ -91,7 +91,7 @@ export const styles = StyleSheet.create({
         marginBottom: 10
     },
     whiteText: {
-        color: '#FFFFFF'
+        color: '#FCF8F2'
     },
     verseTitle: {
         fontFamily: 'Inter-Bold',
@@ -114,8 +114,8 @@ export const styles = StyleSheet.create({
     book: {
         height: 80,
         width: 320,
-        backgroundColor: '#2e5984',
-        shadowColor: "#2e5984",
+        backgroundColor: '#927147',
+        shadowColor: "#927147",
         shadowOffset: {
             width: 0,
             height: 5,
@@ -155,7 +155,7 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.27,
         shadowRadius: 4.65,
         elevation: 6,
-        backgroundColor: '#2E5984',
+        backgroundColor: '#FCF8F2',
         // marginTop: 27
     },
     mainHeaderText: {
@@ -163,7 +163,7 @@ export const styles = StyleSheet.create({
         fontSize: 23,
         fontFamily: 'Inter-Regular',
         fontWeight: 'bold',
-        color: '#FFFFFF'
+        color: '#927147'
     },
     mainDetailHeaderText: {
         fontSize: 18,
@@ -171,7 +171,7 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: -5,
         marginLeft: -25,
-        color: '#FFFFFF'
+        color: '#927147'
     },
     headerTextWrap: {
         flexDirection: 'row',
@@ -179,7 +179,7 @@ export const styles = StyleSheet.create({
         marginTop: 5
     },
     bookCard: {
-        backgroundColor: '#2E5984',
+        backgroundColor: '#927147',
         paddingHorizontal: 100,
         paddingVertical: 10,
         borderRadius: 5,
@@ -187,13 +187,13 @@ export const styles = StyleSheet.create({
         width: '100%'
     },
     bookText: {
-        color: '#FFFFFF',
+        color: '#FCF8F2',
         fontSize: 15,
         fontFamily: 'Inter-Bold',
         textAlign: 'center'
     },
     chapterCard: {
-        backgroundColor: '#2E5984',
+        backgroundColor: '#927147',
         paddingHorizontal: 5,
         paddingVertical: 15,
         borderRadius: 5,
@@ -202,7 +202,7 @@ export const styles = StyleSheet.create({
         marginLeft: 5,
     },
     chapterText: {
-        color: '#FFFFFF',
+        color: '#FCF8F2',
         fontSize: 16,
         fontFamily: 'Inter-Bold',
         textAlign: 'center'
@@ -258,7 +258,7 @@ export const styles = StyleSheet.create({
     },
     verseText: {
         paddingVertical: 10,
-        borderBottomColor: '#000000',
+        borderBottomColor: '#927147',
         borderBottomWidth: 1
     }
 })

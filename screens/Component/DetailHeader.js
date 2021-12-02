@@ -12,7 +12,7 @@ const DetailHeader = ({navigation, title}) => {
 
     return (
         <View style={styles.header}>
-            <Icon name="arrow-back" size={24} color="#FFFFFF" onPress={goBack}/>
+            <Icon name="arrow-back" size={24} color="#927147" onPress={goBack}/>
             <View style={styles.headerTextWrap}>
                 <Text style={styles.mainHeaderText}> {title} </Text>
             </View>

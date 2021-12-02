@@ -14,7 +14,7 @@ const Navigator = () => {
         <NavigationContainer
             theme={{
                 colors: {
-                    background: '#BCD2E8'
+                    background: '#FCF8F2'
                 }
             }}
         >
@@ -25,15 +25,15 @@ const Navigator = () => {
                 screenOptions={{
                     headerShown: false,
                     headerStyle: {
-                        backgroundColor: '#2E5984'
+                        backgroundColor: '#FCF8F2'
                     },
-                    headerTintColor: '#fff',
+                    headerTintColor: '#927147',
                     headerTitleStyle: {
                         fontWeight: 'bold',
                     },
-                    drawerActiveTintColor: '#BCD2E8',
+                    drawerActiveTintColor: '#927147',
                     drawerStyle: {
-                        backgroundColor: '#2E5984',
+                        backgroundColor: '#FCF8F2',
                         width: 300,
                       },
                 }}
