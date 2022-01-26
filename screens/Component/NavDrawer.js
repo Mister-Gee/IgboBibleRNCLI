@@ -27,7 +27,7 @@ const NavDrawer = ({navigation}) => {
                     <View style={styles.navLinkContainer}>
                         <TouchableOpacity onPress={() => navigation.navigate("Home")}>
                             <View style={styles.navLinkTextWrapper}>
-                                <Icon name="home" size={18} color="#927147" />
+                                <Icon name="home" size={18} color="#FCF8F2" />
                                 <Text style={styles.navLink}>Ụlọ</Text>
                             </View>
                         </TouchableOpacity>
@@ -35,7 +35,7 @@ const NavDrawer = ({navigation}) => {
                     <View style={styles.navLinkContainer}>
                         <TouchableOpacity onPress={() => navigation.navigate('OldTestament', {screen: 'Index'})}>
                             <View style={styles.navLinkTextWrapper}>
-                                <Icon name="bible" size={18} color="#927147" />
+                                <Icon name="bible" size={18} color="#FCF8F2" />
                                 <Text style={styles.navLink}>Agba Ochie</Text>
                             </View>
                         </TouchableOpacity>
@@ -43,7 +43,7 @@ const NavDrawer = ({navigation}) => {
                     <View style={[styles.navLinkContainer, styles.navExtraLinkContainer]}>
                         <TouchableOpacity onPress={() => navigation.navigate("NewTestament", {screen: 'Index'})}>
                             <View style={styles.navLinkTextWrapper}>
-                                <Icon name="bible" size={18} color="#927147" />
+                                <Icon name="bible" size={18} color="#FCF8F2" />
                                 <Text style={styles.navLink}>Agba Ọhụrụ</Text>
                             </View>
                         </TouchableOpacity>
@@ -51,7 +51,7 @@ const NavDrawer = ({navigation}) => {
                     {/* <View style={[styles.navLinkContainer, styles.navExtraLinkContainer]}>
                         <TouchableOpacity onPress={() => navigation.navigate("About")}>
                             <View style={styles.navLinkTextWrapper}>
-                                <Icon name="info-circle" size={18} color="#927147" />
+                                <Icon name="info-circle" size={18} color="#FCF8F2" />
                                 <Text style={styles.navLink}>Gbasara Anyị</Text>
                             </View>
                         </TouchableOpacity>
@@ -61,7 +61,7 @@ const NavDrawer = ({navigation}) => {
                     <View style={[styles.navLinkContainer, styles.navFooterLinkContainer]}>
                         <TouchableOpacity onPress={closeApp}>
                             <View style={styles.navLinkTextWrapper}>
-                                <Icon name="door-open" size={18} color="#927147" />
+                                <Icon name="door-open" size={18} color="#FCF8F2" />
                                 <Text style={styles.navLink}>Mechie</Text>
                             </View>
                         </TouchableOpacity>

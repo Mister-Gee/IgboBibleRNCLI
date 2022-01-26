@@ -17,11 +17,11 @@ export const styles = StyleSheet.create({
     navHeader: {
         paddingVertical: 40,
         marginBottom: 20,
-        borderBottomColor: '#927147',
+        borderBottomColor: '#FCF8F2',
         borderBottomWidth: 1
     },
     navHeaderText: {
-        color: '#927147',
+        color: '#FCF8F2',
         fontFamily: 'Inter-Bold',
         textAlign: 'center',
         fontSize: 30
@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     navFooterLinkContainer: {},
     navLink: {
         fontFamily: 'Inter-Regular',
-        color: '#927147',
+        color: '#FCF8F2',
         fontSize: 15,
         fontWeight: 'bold',
         paddingVertical: 10,
@@ -155,7 +155,7 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.27,
         shadowRadius: 4.65,
         elevation: 6,
-        backgroundColor: '#FCF8F2',
+        backgroundColor: '#927147',
         // marginTop: 27
     },
     mainHeaderText: {
@@ -163,7 +163,7 @@ export const styles = StyleSheet.create({
         fontSize: 23,
         fontFamily: 'Inter-Regular',
         fontWeight: 'bold',
-        color: '#927147'
+        color: '#FCF8F2'
     },
     mainDetailHeaderText: {
         fontSize: 18,
@@ -171,7 +171,7 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: -5,
         marginLeft: -25,
-        color: '#927147'
+        color: '#FCF8F2'
     },
     headerTextWrap: {
         flexDirection: 'row',

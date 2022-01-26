@@ -34,7 +34,7 @@ const App = () => {
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
           <>
           <Navigator />
-          <StatusBar barStyle="dark-content" backgroundColor="#FCF8F2" />
+          <StatusBar barStyle="light-content" backgroundColor="#927147" />
           <View>
             <BannerAd size="320x50" unitId={"ca-app-pub-8645271026489270/8655948785"} />
             {/* <BannerAd size="320x50" unitId={TestIds.BANNER} /> */}
